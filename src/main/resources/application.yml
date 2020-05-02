@@ -15,3 +15,14 @@ spring:
               uri: https://github.com/erictiong/spring-cloudconfig-wa-tolls-perf.git
               search-paths:
                 - 'station*'
+        encrypt:
+          enabled: false
+      enabled: true
+  security:
+    user:
+      name: pluralsight
+      password: pluralsight
+security:
+  basic:
+    enabled: true
+  enable-csrf: false
